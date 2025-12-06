@@ -3,6 +3,6 @@
 
 欢迎新手跟我一起学习，更欢迎大佬指点！！！
 
-PCA学习笔记请查看Markdown文件
+PCA学习笔记请查看Markdown文件（建议下载到本地查看）
 
 learning_case_1和learning_case_2文件夹为学习实战案例
