@@ -34,7 +34,9 @@
 
 ### （2）计算协方差矩阵（一般使用样本协方差矩阵）
 对于包含$n$个样本、$p$个变量的数据集（矩阵形式为$X_{n\times p}$，其中每行代表一个样本，每列代表一个变量），样本协方差矩阵的通用计算公式为：
+
 $S_{p\times p}=\frac{1}{n-1}(X-\overline{X})^{T}(X-\overline{X})$
+
 其中，$\overline{X}_{n\times p}$是“均值矩阵”，其每行均为所有变量的均值向量$[\overline{x}_{1},\overline{x}_{2},...,\overline{x}_{p}]$。
 
 ### （3）特征值分解
@@ -57,4 +59,6 @@ $S_{p\times p}=\frac{1}{n-1}(X-\overline{X})^{T}(X-\overline{X})$
 
 ### （3）单位化公式
 单位化后的向量计算公式为：$u=\frac{P}{||P||}$；
+
 其中，$||P||=\sqrt{\langle P,P\rangle}$（$\langle P,P\rangle$表示向量$P$的内积）。
+
