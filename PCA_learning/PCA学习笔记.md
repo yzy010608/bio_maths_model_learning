@@ -48,7 +48,7 @@ $S_{p\times p}=\frac{1}{n-1}(X-\overline{X})^{T}(X-\overline{X})$
 ### （5）投影数据
 将中心化后的数据投影到选取的各个主成分上，并通过图表形式实现可视化展示。
 
-## 5. 课堂回顾[参考文献1]
+## 5. 课堂回顾
 ### （1）求特征值
 设协方差矩阵为$A$，特征值为$\lambda$，则通过求解特征方程$|\lambda E - A|=0$得到特征值$\lambda$。
 
@@ -61,4 +61,5 @@ $S_{p\times p}=\frac{1}{n-1}(X-\overline{X})^{T}(X-\overline{X})$
 单位化后的向量计算公式为：$u=\frac{P}{||P||}$；
 
 其中，$||P||=\sqrt{\langle P,P\rangle}$（$\langle P,P\rangle$表示向量$P$的内积）。
+
 
